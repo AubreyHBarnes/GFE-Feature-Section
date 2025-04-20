@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid items-center justify-items-center p-4 md:p-8 pb-20 sm:p-20 font-[family-name:var(--font-noto-sans)]">
+    <div className="grid items-center gap-12 justify-items-center p-4 md:p-8 pb-20 sm:p-20 font-[family-name:var(--font-noto-sans)]">
       <section className="intro-copy-container flex flex-col items-center gap-4">
         <h1 className="intro-subhead text-indigo-700 text-center font-semibold">High Quality Images</h1>
         <h2 className="intro-heading text-center text-3xl md:text-5xl font-semibold">For Designers, By Designers</h2>
